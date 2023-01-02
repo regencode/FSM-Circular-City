@@ -1,6 +1,6 @@
 # Circular City using Finite State Automata
 
-Welcome to Circular City! In this city you are only allowed to walk in the counter-clockwise direction, however you can travel in clockwise through the train stations. You start at home (000) and your destination is at 101 (accept state).
+Welcome to Circular City! In this city you are <u> only allowed to walk in the counter-clockwise direction </u>, however you <u>can travel in clockwise through the train stations</u>. You <u>start at home (000)</u> and <u>your destination is at 101 (accept state)</u>.
 
 ## DFA Implementation:
 ![FSM-circularcity-diagram](https://user-images.githubusercontent.com/114067350/210193342-b67335dd-8dcb-46ec-8ce5-d7f8c01887dd.png)
