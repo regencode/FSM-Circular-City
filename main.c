@@ -50,9 +50,7 @@ int main(){
         // s2 next state
 
         if((s2 == 0 && input == 0) || (s0 == 0 && s2 == 0) || ((s2 == 1 && input == 1) && (s0^s1) == 1)){ 
-            printf("%d%d", s0, s1);
             next_s2 = 1;
-
         } else { next_s2 = 0; }
 
 
