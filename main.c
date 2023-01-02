@@ -34,24 +34,14 @@ int main(){
 
         scanf("%d", &input);
 
-        // s0 next state
 
-        if((s0 == 1 && input == 0) || (s2 == 1 && input == 1 && s0 == 0) || (s0 == 1 && s1 == 0 && s2 == 1 && input == 1) || (s0 == 1 && s1 == 1 && s2 == 0 && input == 1)){
-            next_s0 = 1;
-        } else { next_s0 = 0; }
+        // According to K-map values
 
+        next_s0 = (s0 && !input) || (s2 && input && !s0) || (s0 && !s1 && s2 && input) || (s0 && s1 && !s2 && input);
 
-        // s1 next state
+        next_s1 = (s1^input);
 
-        if((s1^input) == 1 /* s1 XOR input */){
-            next_s1 = 1;
-        } else { next_s1 = 0;}
-
-        // s2 next state
-
-        if((s2 == 0 && input == 0) || (s0 == 0 && s2 == 0) || ((s2 == 1 && input == 1) && (s0^s1) == 1)){ 
-            next_s2 = 1;
-        } else { next_s2 = 0; }
+        next_s2 = (!s2 && !input) || (!s0 && !s2) || (s2 && input && (s0^s1));
 
 
         // Update the values
