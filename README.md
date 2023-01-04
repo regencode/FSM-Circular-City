@@ -47,7 +47,7 @@ Y - Your position
 
 00, 01, 10, 11 - Station name
 
-11 is highlighted in green as it is the destination terminal
+10 is highlighted in green as it is the destination terminal
 
 ![fsmterminal](https://user-images.githubusercontent.com/114067350/210596616-023c6d4c-cfe7-40e9-90a3-67edbbe46dd3.PNG)
 
