@@ -43,8 +43,7 @@ In the main.c file, the implementation of the DFA is through the K-maps that are
 
 # Visualization in the terminal
 
-![fsmterminal](https://user-images.githubusercontent.com/114067350/210592522-ed9bfa26-1b74-4352-bf58-4334c0bff1bd.PNG)
-
+![fsmterminal](https://user-images.githubusercontent.com/114067350/210596616-023c6d4c-cfe7-40e9-90a3-67edbbe46dd3.PNG)
 
 
 ## How to run:
