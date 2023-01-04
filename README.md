@@ -18,7 +18,7 @@ The definition of this DFA:
 
 Q = {000, 001, 010, 011, 100, 101, 110, 111}
 
-sigma = {Enter/leave Train Station, Move to next area} encoded to {0, 1}
+sigma = {Change track, Move to next station} encoded to {0, 1}
 
 delta0 = 
 
