@@ -1,5 +1,8 @@
 # Circular Train Stations using Finite State Automata
 
+Station name is based on the first 2 terms of the state (example: 001 is in Station 00, 110 is in Station 11)
+You start at Station 00, at state 000
+
 Move in clockwise/anticlockwise by inputting 1.
 
 Change tracks from clockwise -> anticlockwise and vice versa by inputting 0.
