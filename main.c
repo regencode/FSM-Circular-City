@@ -12,25 +12,81 @@ int main(){
     
 
     while(true){
-        printf("\n\nCircular City - Finite State Automata\n----------------------\n");
+        printf("\n\nCircular City Train Station - Finite State Automata\n----------------------\n");
+
+        if (s0 == 0 && s1 == 0){
+            printf("11");
+            printf(" - - ");
+            printf("\033[1;32m"); // Green
+            printf("10");
+            printf("\033[0;37m"); // White
+            printf("\n|      |\n");
+            printf("\033[1;33m"); // Yellow
+            printf("Y");
+            printf("\033[0;37m"); // White
+            printf(" - - ");
+            printf("01");
+            printf("\033[0;37m"); // White
+            printf("\nYou are currently at Station 00");
+        }
         
-        printf("Current state = %d%d%d\n", s0,s1,s2);
-        if (s0 == 0 && s1 == 0 && s2 == 0){
-            printf("You are currently at home.");
+        else if (s0 == 0 && s1 == 1){
+            printf("11");
+            printf(" - - ");
+            printf("\033[1;32m"); // Green
+            printf("10");
+            printf("\033[0;37m"); // White
+            printf("\n|      |\n");
+            printf("00");
+            printf(" - - ");
+            printf("\033[1;33m"); // Yellow
+            printf("Y");
+            printf("\033[0;37m"); // White
+            printf("\nYou are currently at Station 01");
         }
 
-        else if(s0 == 1 && s1 == 0 && s2 == 1){
+        else if (s0 == 1 && s1 == 0){
+            printf("11");
+            printf(" - - ");
+            printf("\033[1;33m"); // Yellow
+            printf("Y");
+            printf("\033[0;37m"); // White
+            printf("\n|      |\n");
+            printf("00");
+            printf(" - - ");
+            printf("01");
+            printf("\033[0;37m"); // White
+            printf("\nYou are currently at Station 10");
+        }
+        else if (s0 == 1 && s1 == 1){
+            printf("\033[1;33m");
+            printf("Y");
+            printf(" - - ");
+            printf("\033[1;32m"); // Green
+            printf("10");
+            printf("\033[0;37m"); // White
+            printf("\n|      |\n");
+            printf("00");
+            printf(" - - ");
+            printf("01");
+            printf("\033[0;37m"); // White
+            printf("\nYou are currently at Station 11");
+        }
+
+        printf("\nCurrent state = %d%d%d\n", s0,s1,s2);
+
+        if(s0 == 1 && s1 == 0 && s2 == 1){
             printf("You are currently at your destination.");
         }
 
-        else if((s0 == 0 && s1 == 1 && s2 == 1) || (s0 == 1 && s1 == 1 && s2 == 1)){
-            printf("You are walking in the city.");
+        if ((s0 == 0 && s1 == 0 && s2 == 0) || (s0 == 0 && s1 == 1 && s2 == 1) || (s0 == 1 && s1 == 0 && s2 == 1) || (s0 == 1 && s1 == 1 && s2 == 1)){
+            printf("\nYou are travelling clockwise.");
         }
         else{
-            printf("You are currently in the train station.");
+            printf("\nYou are travelling anticlockwise.");
         }
         
-        printf("\n\nHow do you want to travel?\n\n0 - Enter/leave Train Station\n1 - Move to next area\n");
+        printf("\nHow do you want to travel?\n\n0 - Change track \n1 - Move to next station\n");
 
         scanf("%d", &input);
 
