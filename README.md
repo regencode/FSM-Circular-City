@@ -41,6 +41,12 @@ F = {101}
 
 In the main.c file, the implementation of the DFA is through the K-maps that are obtained through the changes of s0, s1, and s2
 
+# Visualization in the terminal
+
+![fsmterminal](https://user-images.githubusercontent.com/114067350/210592522-ed9bfa26-1b74-4352-bf58-4334c0bff1bd.PNG)
+
+
+
 ## How to run:
 With Makefile installed on your system, type "make" or "make run" to the terminal.
 
