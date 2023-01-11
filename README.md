@@ -9,7 +9,7 @@ Move in clockwise/anticlockwise by inputting 1.
 Change tracks from clockwise -> anticlockwise and vice versa by inputting 0.
 
 ## DFA Implementation:
-![fsmterminal](https://user-images.githubusercontent.com/114067350/211837103-31417fe5-e8aa-48bc-bf12-7d896fd522c5.PNG)
+![fsmterminal](https://user-images.githubusercontent.com/114067350/211838875-d6378514-00c6-480c-a8fe-0936742fefe8.PNG)
 
 
 ## DFA Definition:
