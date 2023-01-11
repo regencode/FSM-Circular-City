@@ -9,7 +9,8 @@ Move in clockwise/anticlockwise by inputting 1.
 Change tracks from clockwise -> anticlockwise and vice versa by inputting 0.
 
 ## DFA Implementation:
-![FSM-circularcity-diagram](https://user-images.githubusercontent.com/114067350/210193342-b67335dd-8dcb-46ec-8ce5-d7f8c01887dd.png)
+![fsmterminal](https://user-images.githubusercontent.com/114067350/211837103-31417fe5-e8aa-48bc-bf12-7d896fd522c5.PNG)
+
 
 ## DFA Definition:
 DFA is defined as a 5 tuple -> DFA = (Q, sigma, delta0, q0, F)
