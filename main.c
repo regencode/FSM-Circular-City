@@ -4,6 +4,7 @@
 
 int main(){
 
+
     int s0, s1, s2, input;
     s0 = 0;
     s1 = 0;
@@ -12,8 +13,12 @@ int main(){
     
 
     while(true){
-
+        
         // print train text art
+        system("clear");
+        printf("\n");
+        printf("\n");
+
         printf("		    	 _____________________\n");
         printf("  	 	   	/____________________/|\n");
         if (s0 == 0 && s1 == 0)
