@@ -50,7 +50,9 @@ Y - Your position
 
 10 is highlighted in green as it is the destination terminal
 
-![fsmterminal](https://user-images.githubusercontent.com/114067350/210596616-023c6d4c-cfe7-40e9-90a3-67edbbe46dd3.PNG)
+![visualtrain](https://user-images.githubusercontent.com/114067350/213982646-665234ed-f59b-49a0-af6b-7e687f681aad.PNG)
+
+![visualtrain2](https://user-images.githubusercontent.com/114067350/213982656-73721996-4132-41eb-8bd8-65bf1be2e2eb.PNG)
 
 
 ## How to run:
