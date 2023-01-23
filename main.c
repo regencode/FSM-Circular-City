@@ -13,7 +13,7 @@ int main(){
 
     while(true){
 
-        // print train character art
+        // print train text art
         printf("		    	 _____________________\n");
         printf("  	 	   	/____________________/|\n");
         if (s0 == 0 && s1 == 0)
@@ -164,7 +164,7 @@ int main(){
 
         printf("\nCurrent state = %d%d%d\n", s0,s1,s2);
 
-        if(s0 == 1 && s1 == 0 && s2 == 1){
+        if(s0 == 1 && s1 == 0){
             printf("You are currently at your destination.");
         }
 
@@ -195,18 +195,7 @@ int main(){
         s1 = next_s1;
         s2 = next_s2;
         input = -1;
-
-        printf("\n");
-        printf("\n");
-        printf("\n");
-        printf("\n");
-        printf("\n");
-        printf("\n");
-        printf("\n");
-        printf("\n");
-        printf("\n");
-        printf("\n");
-
+        system("clear");
     }
 
     return 0;
